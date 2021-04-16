@@ -1,7 +1,7 @@
 # CSS 
 ## Taller introductorio a diseño con html.
 
-- Para ver la grabacion pulsa [aquí](https://drive.google.com/file/d/1GCUrtsC4n0MOWc4-r_IFkMzDAxr6SmJC/view?usp=sharing).
+- Para ver la grabacion pulsa [aquí](https://drive.google.com/file/d/1ceCO7GIL_yWT0ZZqb_d_mhkLgtwSN-Ll/view?usp=sharing).
 - Para ver la presentacion pulsa [aquí](./Presentacion.pdf)
 
 #### En este taller se realizaron 2 ejemplos:
