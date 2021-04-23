@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejemplo 5</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/united/bootstrap.min.css" />
+</head>
+
+<body>
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Students App</span>
+    </div>
+  </nav>
+  <!--Container-->
+  <div class="container mt-2">
+    <div class="row justify-content-center">
+      <div class="col-5">
+        <div class="card text-center">
+          <h2 class="card-title">Students</h2>
+          <div class="card-body">
+            <!--Form-->
+            <form id="formStudents">
+              <!--Name-->
+              <div class="form-group">
+                <label for="select-amount">Name</label>
+                <input type="text" placeholder="Name" id="name" class="form-control" />
+              </div>
+              <!--DPI-->
+              <div class="form-group">
+                <label for="select-amount">DPI</label>
+                <input type="text" placeholder="DPI" id="dpi" class="form-control" />
+              </div>
+              <!--Email-->
+              <div class="form-group">
+                <label for="select-amount">Email</label>
+                <input type="email" placeholder="Email" id="email" class="form-control" />
+              </div>
+              <!--Button-->
+              <button class="btn btn-dark btn-block" type="submit">
+                Save
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-7">
+        <div id="students"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
